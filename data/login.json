@@ -1,0 +1,20 @@
+{
+  "login_001": {
+    "desc": "正常登录-用户1",
+    "username": "xxx",
+    "password": "xxx",
+    "protocol": true,
+    "success": true,
+    "error_type": "0",
+    "expect_result": null
+  },
+  "login_002": {
+    "desc": "正常登录-用户2",
+    "username": "xxx",
+    "password": "xxx",
+    "protocol": true,
+    "success": true,
+    "error_type": "0",
+    "expect_result": null
+  }
+}

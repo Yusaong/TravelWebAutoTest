@@ -1,0 +1,58 @@
+{
+  "buy_ticket_001": {
+    "desc": "正常购买-用户1",
+    "username": "xx",
+    "password": "xx",
+    "start_station": "北京",
+    "arrive_station": "上海",
+    "time": "2025-07-10",
+    "name": "xx",
+    "id": "xx",
+    "phone": "xx",
+    "protocol": true,
+    "success": true,
+    "expect_result": null
+  },
+  "buy_ticket_003": {
+    "desc": "填写信息不完整-用户3",
+    "username": "xx",
+    "password": "xx",
+    "start_station": "重庆",
+    "arrive_station": "武汉",
+    "time": "2025-07-10",
+    "name": "xx",
+    "id": "xx",
+    "phone": "",
+    "protocol": true,
+    "success": false,
+    "expect_result": "请正确填写所有内容"
+  },
+  "buy_ticket_004": {
+    "desc": "填写信息不完整-用户3",
+    "username": "xx",
+    "password": "xx",
+    "start_station": "重庆",
+    "arrive_station": "武汉",
+    "time": "2025-07-10",
+    "name": "",
+    "id": "xx",
+    "phone": "",
+    "protocol": true,
+    "success": false,
+    "expect_result": "请正确填写所有内容"
+  },
+  "buy_ticket_007": {
+    "desc": "未勾选协议-用户1",
+    "username": "xx",
+    "password": "xx",
+    "start_station": "重庆",
+    "arrive_station": "武汉",
+    "time": "2025-07-10",
+    "name": "xx",
+    "id": "xx",
+    "phone": "xx",
+    "protocol": false,
+    "success": false,
+    "expect_result": "请阅读《火车票信息服务协议》并点击同意。"
+  }
+}
