@@ -25,7 +25,7 @@
 
 ## 项目结构
 
-![project_map](C:\Users\Administrator\Downloads\project_map.png)
+![project_map](img/project_map.png)
 
 ```mermaid
 mindmap
@@ -119,4 +119,3 @@ markers =
 
 - 掌握了UI自动化测试的主流技术栈和工程化实践。
 - 提升了代码结构设计、异常处理和自动化测试覆盖率的能力。
-- 项目可作为去哪儿网核心功能的回归测试保障，提升产品质量和交付效率。
