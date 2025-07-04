@@ -1,7 +1,8 @@
 import pytest
 import page
 from selenium import webdriver
-from page.page_buy_tickets import PurchasePage
+from page.page_order import OrderPage
+from page.page_tickets import TicketPage
 from page.page_login import PageLogin
 from page.page_publish_travel_notes import PagePublish
 
@@ -20,11 +21,13 @@ def get_driver():
 def get_login_page(get_driver):
     return PageLogin(get_driver)
 
+@pytest.fixture(scope='function')
+def get_ticket_page(get_driver):
+    return TicketPage(get_driver)
 
 @pytest.fixture(scope='function')
-def get_purchase_page(get_driver):
-    return PurchasePage(get_driver)
-
+def get_order_page(get_driver):
+    return OrderPage(get_driver)
 
 @pytest.fixture(scope='function')
 def get_publish_page(get_driver):

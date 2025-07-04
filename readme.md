@@ -38,7 +38,8 @@ mindmap
       窗口切换
     Page Object
       登录PO
-      购票PO
+      搜索火车票PO
+      订票PO
       游记发表PO
     Utils工具
       断言截图
